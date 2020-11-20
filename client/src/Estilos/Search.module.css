@@ -1,0 +1,14 @@
+.input{
+    width: 550px;
+    height: 60px;
+    border-radius: 10px;
+    opacity: 50%;
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: math;
+}
+
+.input:hover{
+    opacity: 90%;
+}
