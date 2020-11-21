@@ -11,15 +11,13 @@ export default function Pagination({ totalProductos, paginas, productPorPagina }
 
   return (
     <div>
-      <ul class="pagination" style={{ width: "200px"}} >
+      <ul class="pagination" style={{ margin: "5px"}} >
         <li class="page-item disabled">
           <a class="page-link " href="#">&laquo;</a>
         </li>
         <li class="page-item" style={{ display: "flex" }}>
           {paginate.map(number =>
-          <NavLink to="#">
-            <a class="page-link " href="" onClick={() => paginas(number)}>{number}</a>
-          </NavLink>
+            <a class="page-link " href="#" onClick={() => paginas(number)}>{number}</a>
           )}
         </li>
         <li class="page-item disabled">

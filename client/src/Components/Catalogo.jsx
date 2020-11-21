@@ -65,7 +65,7 @@ export default function Catalogo({productos, loading}){
                             )
                         })}
                     </div>
-                    <div class="fixed-bottom"style={{ display: "flex", justifyContent:"center", marginTop: "20px"}}>
+                    <div class="fixed-bottom"style={{ display: "flex", justifyContent:"center", marginTop: "20px", backgroundColor: "#ffffff70"}}>
                         <Pagination totalProductos={productos} paginas={proximaPagina} productPorPagina={products} />
                     </div>
                 </div>

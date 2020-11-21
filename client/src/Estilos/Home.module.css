@@ -8,3 +8,11 @@
     display: flex;
 }
 
+.titulo{
+    font-size: 65px;
+    font-family: 'Lobster', cursive;
+}
+
+.carousel{
+    height: 600px;
+}

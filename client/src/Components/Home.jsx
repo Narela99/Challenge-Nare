@@ -29,7 +29,7 @@ export function Fondo (){
 export function Inicio ({funcion}){
     return (
         <div style={{height: "100vh", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", width: "100%" }}>
-            <h1 style={{fontSize: "65px"}}>Todo lo que buscas, en un solo lugar!</h1>
+            <h1 className={estilo.titulo}>Todo lo que buscas, en un solo lugar!</h1>
             <SearchBar funcion={funcion}/>
         </div>
     )
