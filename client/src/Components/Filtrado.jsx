@@ -5,7 +5,7 @@ import Catalogo from './Catalogo';
 export function FiltradoComponente (){
     
     return (
-        <div style={{position: "absolute", width: "200px", height: "100%", borderRight: "1px solid white", position: "fixed", marginTop:"13px"}}>
+        <div style={{position: "absolute", width: "200px", height: "100%", borderRight: "1px solid white", position: "fixed", marginTop: "115px"}}>
             <div style={{marginTop:"20px"}}>
                 <div >
                     <h5 style={{display: "flex", fontWeight: "bold", fontSize: "17px", marginLeft: "15px"}}>Filtrar por precio:</h5> 
@@ -63,7 +63,11 @@ export function Nuevos ({productos}){              //productos nuevos
         return (e.condition === "new")
     })
     if(arr.length === 0){
-        return (<h4>No hay productos nuevos</h4>)
+        return (
+            <div style={{display: "flex", height: "100vh", width:"100%", justifyContent: "center", alignItems: "center"}}>
+                <h2>No hay productos nuevos</h2>
+            </div>
+            )
     }
     return (
         <Catalogo productos={arr}/>
@@ -77,7 +81,11 @@ export function Usados ({productos}){              //productos usados
     })
 
     if(arr.length === 0){
-        return (<h4>No hay productos usados</h4>)
+        return (
+        <div style={{display: "flex", height: "100vh", width:"100%", justifyContent: "center", alignItems: "center"}}>
+            <h2>No hay productos usados</h2>
+        </div>
+        )
     }
     return (
         <Catalogo productos={arr}/>

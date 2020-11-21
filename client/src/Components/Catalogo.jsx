@@ -19,7 +19,7 @@ export default function Catalogo({productos, loading}){
     var condicion = () => {
         if (loading === true){
             return (
-                <div style={{display: "flex", height: "500px", justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
+                <div style={{display: "flex", height: "700px", width:"100%", justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
                     <div>
                         <h4>Cargando...</h4>
                     </div>
@@ -41,27 +41,33 @@ export default function Catalogo({productos, loading}){
             )
         }
         else if(productos.length === 0){
-            return (<h4>No hay productos</h4>)
+            return (
+                <div style={{display: "flex", height: "100vh", width:"100%", justifyContent: "center", alignItems: "center"}}>
+                    <h2>No hay productos</h2>
+                </div>
+                )
         }
         else return (
-            <div>
-                <div className={estilo.display}>
-                    {arrayProductos.map (p => {
-                        return (
-                        <ProductCard 
-                            id={p.id}
-                            image={p.image}
-                            title={p.title}
-                            price={p.price}
-                            stock={p.stock}
-                            sold={p.sold}
-                            condition={p.condition}
-                        />
-                        )
-                    })}
-                </div>
-                <div style={{ display: "flex", justifyContent:"center", margin: "30px" }}>
-                    <Pagination totalProductos={productos} paginas={proximaPagina} productPorPagina={products} />
+            <div style={{paddingTop: "115px"}}>
+                <div className={estilo.scroll}>
+                    <div className={estilo.grilla}>
+                        {arrayProductos.map (p => {
+                            return (
+                            <ProductCard 
+                                id={p.id}
+                                image={p.image}
+                                title={p.title}
+                                price={p.price}
+                                stock={p.stock}
+                                sold={p.sold}
+                                condition={p.condition}
+                            />
+                            )
+                        })}
+                    </div>
+                    <div class="fixed-bottom"style={{ display: "flex", justifyContent:"center", marginTop: "20px"}}>
+                        <Pagination totalProductos={productos} paginas={proximaPagina} productPorPagina={products} />
+                    </div>
                 </div>
             </div>
         )
