@@ -1,6 +1,7 @@
 .carousel{
-    min-height: 500px;
-    
+    min-height: 550px;
+    width: 90%;
+    border-radius: 5px;
 }
 
 .carousel .carousel-item{
@@ -17,3 +18,4 @@
     object-fit: cover;
     
 }
+

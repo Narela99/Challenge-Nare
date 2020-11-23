@@ -61,6 +61,7 @@ export default function Catalogo({productos, loading}){
                                 stock={p.stock}
                                 sold={p.sold}
                                 condition={p.condition}
+                                currency={p.currency}
                             />
                             )
                         })}

@@ -1,13 +1,13 @@
 .input{
-    width: 550px;
-    height: 60px;
+    /* width: 600px;
+    height: 80px;
     border-radius: 10px;
     opacity: 50%;
     margin: 10px;
     border: none;
     font-size: 20px;
-    font-family: math;
-    /* background-color: rgba(255, 255, 255, 0.199); */
+    font-family: math; */
+    opacity: 50%;
 }
 
 .input:hover{

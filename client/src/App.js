@@ -6,14 +6,15 @@ import {Home, Inicio, Fondo} from './Components/Home';
 import {FiltradoComponente, PrecioAsc, PrecioDesc, Nuevos, Usados} from './Components/Filtrado';
 import axios from 'axios';
 import estilo from './App.module.css';
-import Imagenes from './Components/Imagenes';
+// import Imagenes from './Components/Imagenes';
 import estilos from './Estilos/Home.module.css';
 import fondo from './Imagenes/fondo.jpg';
+import Producto from './Components/Imagenes';
 
 function App() {
   
   const [productos, setProductos] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState();
 
   function onSearch(product){
     setLoading(true);
@@ -38,7 +39,8 @@ function App() {
             <Route exact path='/products/filter/mayor-precio' render={() => <PrecioDesc productos={productos}/>}/>
             <Route exact path='/products/filter/nuevos' render={() => <Nuevos productos={productos}/>}/>
             <Route exact path='/products/filter/usados' render={() => <Usados productos={productos}/>}/>
-            <Route exact path='/imagenes' render={() => <Imagenes/>}/>
+            {/* <Route exact path='/imagenes' render={() => <Imagenes/>}/> */}
+            <Route exact path={`/producto/:id`} render={({match}) => <Producto id= {match.params.id}/>}/>
           {/* </div> */}
         </BrowserRouter>
     </div>

@@ -25,6 +25,9 @@
   }
 
   .card:hover{
-      box-shadow: 3px 3px 10px rgb(172, 171, 171);
+      box-shadow: 3px 3px 10px rgb(212, 211, 211);
+      width: 260px;
+      height: 380px;
+      opacity: 100%;
   }
   
