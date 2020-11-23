@@ -18,7 +18,7 @@ export default function ProductCard({id, image, title, price, stock, sold, condi
     }
 
     return(
-         <div className="cards">
+         <div className="cards" style={{width: "250px", height: "380px"}}>
              <NavLink to={`/producto/${id}`} style={{textDecoration: "none"}}>
             <div>
                 <div style={{display: "flex", justifyContent: "center", marginTop:"10px"}}>

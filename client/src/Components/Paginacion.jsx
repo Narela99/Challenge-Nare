@@ -17,7 +17,7 @@ export default function Pagination({ totalProductos, paginas, productPorPagina }
         </li>
         <li class="page-item" style={{ display: "flex" }}>
           {paginate.map(number =>
-            <a class="page-link " href="#" onClick={() => paginas(number)}>{number}</a>
+            <a class="page-link text-white"  href="#" onClick={() => paginas(number)}>{number}</a>
           )}
         </li>
         <li class="page-item disabled">
