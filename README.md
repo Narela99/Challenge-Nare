@@ -1,3 +1,1 @@
-# Challenge-Nare
-
-Proyecto Mini E-commerce
+# Mini E-commerce
