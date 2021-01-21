@@ -12,9 +12,9 @@ El proyecto esta realizado con redis por lo tanto es necesario tener instalado e
 
 >Luego abrimos la carpeta en la que se encuentra el proyecto desde su editor de codigo preferido como por ejemplo [Visual Studio Code](https://code.visualstudio.com/), una vez abierto desde el editor de codigo procedemos a hacer lo siguiente:
 
-> ```npm install:``` estando parados en la carpeta 'client' que pertenece al Front-end y luego en la carpeta 'api' que pertenece al Back-end hacemos lo mismo. Esto va a instalar todas las dependencias necesarias para correr el proyecto sin problemas.
+> ```npm install```:  Estando parados en la carpeta 'client' que pertenece al Front-end y luego en la carpeta 'api' que pertenece al Back-end hacemos lo mismo. Esto va a instalar todas las dependencias necesarias para correr el proyecto sin problemas.
 
-> ```npm start:``` estando parados en la carpeta 'client' que pertenece al Front-end y luego en la carpeta 'api' que pertenece al Back-end hacemos lo mismo. Esto va a ejecutar el proyecto de manera automática.
+> ```npm start```: Estando parados en la carpeta 'client' que pertenece al Front-end y luego en la carpeta 'api' que pertenece al Back-end hacemos lo mismo. Esto va a ejecutar el proyecto de manera automática.
 
 ---
 
