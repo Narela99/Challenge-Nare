@@ -8,6 +8,13 @@ Proyecto creado en el periodo de cursada del bootcamp de [HENRY](https://www.soy
 
 El proyecto esta realizado con redis por lo tanto es necesario tener instalado en nuestra computadora [REDIS](https://redis.io/) y tener conocimientos de como ejecutar un servidor en nuestra computadora de manera local, ya que este mismo se utiliza para hacer el método de caching para así poder hayar productos anteriormente buscados por nosotros mucho más rápido.
 
->Una vez instalado redis procedemos a clonar el repositorio con un 'git clone https://github.com/EricGomez29/e-commerce.git' en una carpeta que quisieras tener el proyecto desde tu terminal o simplemente descargarlo como .ZIP.
+>Una vez instalado redis procedemos a clonar el repositorio con un 'git clone https://github.com/Narela99/Challenge-Nare' en una carpeta que quisieras tener el proyecto desde tu terminal o simplemente descargarlo como .ZIP.
+
+>Luego abrimos la carpeta en la que se encuentra el proyecto desde su editor de codigo preferido como por ejemplo [Visual Studio Code](https://code.visualstudio.com/), una vez abierto desde el editor de codigo procedemos a hacer lo siguiente:
+
+> ```npm install:``` estando parados en la carpeta 'client' que pertenece al Front-end y luego en la carpeta 'api' que pertenece al Back-end hacemos lo mismo. Esto va a instalar todas las dependencias necesarias para correr el proyecto sin problemas.
+
+> ````npm start:``` estando parados en la carpeta 'client' que pertenece al Front-end y luego en la carpeta 'api' que pertenece al Back-end hacemos lo mismo. Esto va a ejecutar el proyecto de manera automática.
+
 ---
 
