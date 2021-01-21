@@ -14,7 +14,7 @@ El proyecto esta realizado con redis por lo tanto es necesario tener instalado e
 
 > ```npm install:``` estando parados en la carpeta 'client' que pertenece al Front-end y luego en la carpeta 'api' que pertenece al Back-end hacemos lo mismo. Esto va a instalar todas las dependencias necesarias para correr el proyecto sin problemas.
 
-> ````npm start:``` estando parados en la carpeta 'client' que pertenece al Front-end y luego en la carpeta 'api' que pertenece al Back-end hacemos lo mismo. Esto va a ejecutar el proyecto de manera automática.
+> ```npm start:``` estando parados en la carpeta 'client' que pertenece al Front-end y luego en la carpeta 'api' que pertenece al Back-end hacemos lo mismo. Esto va a ejecutar el proyecto de manera automática.
 
 ---
 
